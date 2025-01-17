@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7f9fc;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  border-color: #4f8df2;
+}
+
+input[type="text"]:focus {
+  border-color: #0066cc;
+  outline: none;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #000;
+}
